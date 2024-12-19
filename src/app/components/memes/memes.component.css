@@ -1,0 +1,14 @@
+/* src/app/components/memes/memes.component.css */
+.memes-container {
+  padding: 20px;
+}
+
+.meme {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.meme img {
+  width: 100%;
+  max-width: 300px;
+}

@@ -1,0 +1,10 @@
+/* src/app/components/bookings/bookings.component.css */
+.bookings-container {
+  padding: 20px;
+}
+
+.booking {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f1f1f1;
+}

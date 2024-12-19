@@ -1,0 +1,9 @@
+<!-- src/app/components/bookings/bookings.component.html -->
+<div class="bookings-container">
+  <h2>Bookings</h2>
+  <div class="booking" *ngFor="let booking of bookings">
+    <h3>{{ booking.clientName }}</h3>
+    <p>Date: {{ booking.date }}</p>
+    <p>Topic: {{ booking.topic }}</p>
+  </div>
+</div>

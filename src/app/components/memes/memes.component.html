@@ -1,0 +1,8 @@
+<!-- src/app/components/memes/memes.component.html -->
+<div class="memes-container">
+  <h2>Memes</h2>
+  <div class="meme" *ngFor="let meme of memes">
+    <h3>{{ meme.title }}</h3>
+    <img [src]="meme.imageUrl" alt="{{ meme.title }}">
+  </div>
+</div>

@@ -1,0 +1,14 @@
+/* src/app/components/playlist/playlist.component.css */
+.playlist-container {
+  padding: 20px;
+}
+
+.playlist {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f1f1f1;
+}
+
+.playlist h3 {
+  margin-top: 0;
+}
